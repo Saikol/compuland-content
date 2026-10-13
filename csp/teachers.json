@@ -3,12 +3,13 @@
   "format_version": 1,
   "institution_id": "csp",
   "institution_name": "Colegio San Pablo",
-  "generated_at": "2026-10-13T05:17:43",
+  "generated_at": "2026-10-13T07:58:08",
   "teachers": [
     {
       "id": "juan",
       "name": "Juan Pérez",
       "folder": "juan",
+      "code": "CSP-JUAN",
       "public_key": "s8ZF2jR6DahJPl9ACCrEunKt6rVFnHe+THhMJSHB82s=",
       "valid_from": "2026-01-01",
       "valid_until": "2027-12-31"
@@ -17,6 +18,7 @@
       "id": "maria",
       "name": "María López",
       "folder": "maria",
+      "code": "CSP-MARIA",
       "public_key": "hRxj/00yaOrLZxvGJ4fWtqTW+HxyxwctDjXL86Pa510=",
       "valid_from": "2026-01-01",
       "valid_until": "2027-12-31"
