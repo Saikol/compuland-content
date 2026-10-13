@@ -1,0 +1,84 @@
+{
+  "format": "compulab.catalog",
+  "format_version": 2,
+  "generated_at": "2026-10-13T05:17:43",
+  "min_app_version": "1.0.0",
+  "publisher": {
+    "id": "maria",
+    "name": "María López",
+    "kind": "teacher",
+    "institution_id": "csp",
+    "curricular_code": "CSP",
+    "folder": "maria"
+  },
+  "packages": [
+    {
+      "package_id": "global-institutions",
+      "kind": "institutions",
+      "label": "Instituciones",
+      "version": "1",
+      "content_hash": "baf8aa357b5c53f94dcac105e2f3eeb3e223e16e5bf44c79272d90e2f160cd40",
+      "zip_sha256": "82f15f089694d6369726237e1c1b69baedcbe97d269ac0fd1ac011f3bf0b5791",
+      "zip_size_bytes": 541,
+      "url": "institutions/global.zip",
+      "resource_count": 0,
+      "requires": [
+        "course:522e164c-c6f8-48a4-8386-855a5f0d4bb8",
+        "global-minigames",
+        "global-shop",
+        "global-badges"
+      ]
+    },
+    {
+      "package_id": "global-minigames",
+      "kind": "minigames",
+      "label": "Minijuegos",
+      "version": "1",
+      "content_hash": "687c63961d0d6a61a40a10646fdaa9dada2ed3b56551e23cd6e93d8ba43e061d",
+      "zip_sha256": "b1e151a868601376923c923ceadb8e7a6347384a98a8415db2a2e5c02aa46af5",
+      "zip_size_bytes": 1267,
+      "url": "minigames/global.zip",
+      "resource_count": 0,
+      "requires": []
+    },
+    {
+      "package_id": "global-shop",
+      "kind": "shop",
+      "label": "Tienda",
+      "version": "1",
+      "content_hash": "8f48962a698db3ac24e0e42c6ac8869dd5855473146d4354588e37e2ef48be74",
+      "zip_sha256": "7474d8f4a73409d5a8e5be256009153b11fc31919ddb938b1a791b3adf0af2f8",
+      "zip_size_bytes": 1368,
+      "url": "shop/global.zip",
+      "resource_count": 2,
+      "requires": []
+    },
+    {
+      "package_id": "global-badges",
+      "kind": "badges",
+      "label": "Insignias",
+      "version": "1",
+      "content_hash": "a7ade2fb21c2eb81c9d54bcb2cd846af18d6264f49af4121522a74419b836aca",
+      "zip_sha256": "9d342a22c555da17416fac4fa0101cff65d56d33e1411527bd160c0325c05466",
+      "zip_size_bytes": 665,
+      "url": "badges/global.zip",
+      "resource_count": 0,
+      "requires": []
+    },
+    {
+      "package_id": "course:522e164c-c6f8-48a4-8386-855a5f0d4bb8",
+      "kind": "content",
+      "label": "Colegio San Pablo · Ciencias · Ciencias 5º",
+      "version": "1",
+      "content_hash": "6ee4f3f1e59325077d2c6cae88ca4a7cf698d5f2570ccbc5baa64e9003c2b803",
+      "zip_sha256": "a8ca16a4702fd34361b09a6e0a295e8749b58e11587daac2b07e70cfc805070b",
+      "zip_size_bytes": 3742,
+      "url": "content/csp/cie-5p.zip",
+      "resource_count": 1,
+      "requires": [
+        "global-minigames",
+        "global-shop"
+      ]
+    }
+  ]
+}

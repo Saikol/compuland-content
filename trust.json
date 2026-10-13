@@ -1,0 +1,18 @@
+{
+  "format": "compulab.trust",
+  "format_version": 1,
+  "generated_at": "2026-10-13T05:17:44",
+  "institutions": [
+    {
+      "id": "csp",
+      "name": "Colegio San Pablo",
+      "curricular_code": "CSP",
+      "public_key": "N9A36KETVbJB9GXyuY45XFpURVoSC9cnoBCI6hP/45s=",
+      "base_url": "https://saikol.github.io/compuland-content/csp/",
+      "all_teachers": true,
+      "valid_from": "2026-01-01",
+      "valid_until": "2027-12-31"
+    }
+  ],
+  "teachers": []
+}
