@@ -1,0 +1,105 @@
+{
+  "format": "compulab.catalog",
+  "format_version": 2,
+  "generated_at": "2026-10-13T02:34:24",
+  "min_app_version": "1.0.0",
+  "packages": [
+    {
+      "package_id": "global-institutions",
+      "kind": "institutions",
+      "label": "Instituciones",
+      "version": "1",
+      "content_hash": "50721056aa0cb7a2d89c3bae55f192b7bd12a483495e537be14401b85596d232",
+      "zip_sha256": "30e8b996fb7d87b18217e230dda649dd733b9154c80557c3725dd77b86c14d50",
+      "zip_size_bytes": 1069,
+      "url": "institutions/global.zip",
+      "resource_count": 1,
+      "requires": [
+        "course:bbbf6360-b0fd-4546-81c6-4b3b387d1904",
+        "course:87907887-0b76-476e-8231-914227048fd5",
+        "global-minigames",
+        "global-shop",
+        "global-badges"
+      ]
+    },
+    {
+      "package_id": "global-minigames",
+      "kind": "minigames",
+      "label": "Minijuegos",
+      "version": "1",
+      "content_hash": "d81f5c317e0e3c38901a4f2228336b73f43a81ca3d75459124a372ddfa8f5387",
+      "zip_sha256": "53f7fbd38afd34e22a1d4fa5d98519a8627a669bbb2d7e0962b8b4a22e160b24",
+      "zip_size_bytes": 1271,
+      "url": "minigames/global.zip",
+      "resource_count": 0,
+      "requires": []
+    },
+    {
+      "package_id": "global-shop",
+      "kind": "shop",
+      "label": "Tienda",
+      "version": "1",
+      "content_hash": "27665c571c9bea522257f1da4670ec960209da555cdd0c06db264a76b0c826fd",
+      "zip_sha256": "6b53ee63dcb6d6767cb9ebec44bff233a2ae9f4404a5e5d6a54d410c5553c2d5",
+      "zip_size_bytes": 1883,
+      "url": "shop/global.zip",
+      "resource_count": 4,
+      "requires": []
+    },
+    {
+      "package_id": "global-badges",
+      "kind": "badges",
+      "label": "Insignias",
+      "version": "1",
+      "content_hash": "32301eb75a45c5bf2b54398e1d043db164f96d19fdc4a6389c33b81d8e8f4840",
+      "zip_sha256": "0ea337b55537eb1f283f411a0c2d43b3a15cf425e4bbf645321b4760bbcc8224",
+      "zip_size_bytes": 753,
+      "url": "badges/global.zip",
+      "resource_count": 0,
+      "requires": []
+    },
+    {
+      "package_id": "translations:en",
+      "kind": "translations",
+      "label": "Traducciones (en)",
+      "version": "1",
+      "content_hash": "40c5d68000e366841eff835c5f11457a97d950212c87a4606f853f774eb49b73",
+      "zip_sha256": "4b5ef5b70aca2e65ce5955526c6c4281b0ed0565b7fe01464edaf11c6a4a84e6",
+      "zip_size_bytes": 716,
+      "url": "translations/en.zip",
+      "resource_count": 0,
+      "locale": "en",
+      "requires": []
+    },
+    {
+      "package_id": "course:bbbf6360-b0fd-4546-81c6-4b3b387d1904",
+      "kind": "content",
+      "label": "Colegio San Pablo · Matemáticas · Matemáticas 5º",
+      "version": "1",
+      "content_hash": "89f47ea72a0eda380efee3146b5ae2c8b5a6358a27e9784130ff02fa0829a1aa",
+      "zip_sha256": "48a78594cba8bc03b82f57b0e27424125b9797298dcfcbc7b8ba5d4b72eab0c0",
+      "zip_size_bytes": 5739,
+      "url": "content/csp/m-ep-5p.zip",
+      "resource_count": 1,
+      "requires": [
+        "global-minigames",
+        "global-shop"
+      ]
+    },
+    {
+      "package_id": "course:87907887-0b76-476e-8231-914227048fd5",
+      "kind": "content",
+      "label": "Colegio San Pablo · Ciencias · Ciencias 5º",
+      "version": "1",
+      "content_hash": "079cb01011286aa9b8f97f7da9df6e240b0c15cdbdd9422dcda3751e86b53184",
+      "zip_sha256": "b14062f210393f37cb7ed2c50c94d99fc88c0d25f2a0c09fbc6de70ee7a544e4",
+      "zip_size_bytes": 5399,
+      "url": "content/csp/c-ep-5p.zip",
+      "resource_count": 1,
+      "requires": [
+        "global-minigames",
+        "global-shop"
+      ]
+    }
+  ]
+}
